@@ -1,24 +1,22 @@
-import { GeistSans } from 'geist/font'
-import { GeistMono } from 'geist/font'
-import './globals.css'
-import type { Metadata } from 'next'
-import React from 'react'
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import './globals.css';
+
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'LifeCalc - Your All-in-One Calculator',
-  description: 'Calculate everything from EMI to BMI, SIP to Fuel Costs, and more with our comprehensive calculator suite.',
-}
+  title: 'LifeCalc - Your Daily Life Calculator',
+  description: 'A collection of useful calculators for everyday life',
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`}>
-      <body className="min-h-screen bg-gray-50">
-        {children}
-      </body>
+    <html lang="en">
+      <body className={inter.className}>{children}</body>
     </html>
-  )
+  );
 } 
