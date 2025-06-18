@@ -5,7 +5,11 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { FaSun, FaMoon, FaBars, FaTimes } from 'react-icons/fa';
 
-const Navbar: React.FC = () => {
+interface NavbarProps {
+  onSearch?: (query: string) => void;
+}
+
+const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
