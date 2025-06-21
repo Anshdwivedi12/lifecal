@@ -134,7 +134,7 @@ const AboutPage = () => {
         >
           <h2 className="text-xl md:text-2xl font-semibold text-gray-800 dark:text-white mb-4">Our Vision</h2>
           <p className="text-sm md:text-base text-gray-600 dark:text-gray-300 italic text-center">
-            "To simplify lives by offering intuitive and powerful daily tools in one single app."
+            &quot;To simplify lives by offering intuitive and powerful daily tools in one single app.&quot;
           </p>
         </motion.section>
 
@@ -152,8 +152,8 @@ const AboutPage = () => {
               className="mb-4"
             />
             <p className="text-sm md:text-base text-gray-600 dark:text-gray-300 text-center">
-              Hi 👋, I'm a developer passionate about solving real-life problems with simple tools. 
-              This is one of my portfolio projects, and I'm constantly working to add more features. 
+              Hi 👋, I&apos;m a developer passionate about solving real-life problems with simple tools. 
+              This is one of my portfolio projects, and I&apos;m constantly working to add more features. 
               Your feedback is welcome!
             </p>
           </div>

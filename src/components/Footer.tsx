@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
             © {new Date().getFullYear()} LifeCal. All rights reserved.
           </p>
           <p className="mt-2 text-sm text-gray-400 mb-4">
-            Your trusted companion for life's calculations
+            Your trusted companion for life&apos;s calculations
           </p>
           <div className="flex flex-wrap justify-center gap-4 mt-4">
             <Link href="https://anshdwivedi.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 flex items-center">

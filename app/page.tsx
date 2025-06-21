@@ -161,7 +161,7 @@ export default function Home() {
           {/* Search Results Message */}
           {searchQuery && (
             <p className="mb-4 text-gray-600 dark:text-gray-400">
-              {filteredCalculators.length} results found for "{searchQuery}"
+              {filteredCalculators.length} results found for &quot;{searchQuery}&quot;
             </p>
           )}
 

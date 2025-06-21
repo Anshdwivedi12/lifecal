@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
         </h1>
         <p className="mt-3 max-w-2xl mx-auto text-lg sm:text-xl md:mt-5 md:text-2xl">
           Simplify your daily calculations with our comprehensive suite of tools. From finance to
-          health, we've got you covered.
+          health, we&apos;ve got you covered.
         </p>
       </div>
     </div>
